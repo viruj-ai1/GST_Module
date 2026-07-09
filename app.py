@@ -352,7 +352,7 @@ def merge_and_deduplicate(uploaded_df, db_df, keys):
 # =========================================================
 
 st.set_page_config(
-    page_title="GST Data Reconciliation Portal",
+    page_title="GST - Ledger Reconciliation Portal",
     page_icon="📊",
     layout="wide"
 )
@@ -593,15 +593,7 @@ h1, h2, h3, h4, h5, h6 { color: #0a2540 !important; }
 
 st.markdown("""
 <div class="header-box">
-    <div class="header-logo">⬡ Chematrix &nbsp;·&nbsp; GST Suite</div>
-    <div class="header-title">GST Data Reconciliation Portal</div>
-    <div class="header-sub">Upload Company Ledger and GST Records to intelligently reconcile IGST, CGST &amp; SGST entries</div>
-    <div class="header-badges">
-        <span class="badge">📂 Excel / XLS</span>
-        <span class="badge">🔄 IGST · CGST · SGST</span>
-        <span class="badge">☁️ Supabase Sync</span>
-        <span class="badge">📥 Export Report</span>
-    </div>
+    <div class="header-title">GST - Ledger Reconciliation Portal</div>
 </div>
 """, unsafe_allow_html=True)
 
