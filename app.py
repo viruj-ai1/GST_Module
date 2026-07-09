@@ -390,6 +390,7 @@ html, body, [class*="css"] {
     box-shadow: 0 10px 25px -5px rgba(10, 37, 64, 0.2);
     position: relative;
     overflow: hidden;
+    text-align: center;
 }
 .header-box::before {
     content: '';
