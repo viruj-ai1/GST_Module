@@ -366,11 +366,15 @@ st.markdown("""
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 /* Hide Streamlit header, footer, and menu options */
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-header {visibility: hidden;}
-[data-testid="stHeader"] {display: none;}
-.stAppDeployButton {display: none;}
+#MainMenu {visibility: hidden; display: none !important;}
+footer {visibility: hidden; display: none !important;}
+header {visibility: hidden; display: none !important;}
+[data-testid="stHeader"] {display: none !important;}
+.stAppDeployButton {display: none !important;}
+.stMainToolbar {display: none !important;}
+[data-testid="stMainToolbar"] {display: none !important;}
+.stStatusWidget {display: none !important;}
+[data-testid="stStatusWidget"] {display: none !important;}
 
 *, *::before, *::after { box-sizing: border-box; }
 
