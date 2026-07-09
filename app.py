@@ -370,11 +370,18 @@ st.markdown("""
 footer {visibility: hidden; display: none !important;}
 header {visibility: hidden; display: none !important;}
 [data-testid="stHeader"] {display: none !important;}
+[data-testid="stToolbar"] {display: none !important;}
 .stAppDeployButton {display: none !important;}
 .stMainToolbar {display: none !important;}
 [data-testid="stMainToolbar"] {display: none !important;}
 .stStatusWidget {display: none !important;}
 [data-testid="stStatusWidget"] {display: none !important;}
+
+/* Target Streamlit Cloud Viewer Badge */
+.viewerBadge_container__1QSob {display: none !important;}
+.viewerBadge_link__1S137 {display: none !important;}
+div[class^="viewerBadge_"] {display: none !important;}
+a[href^="https://streamlit.io/cloud"] {display: none !important;}
 
 *, *::before, *::after { box-sizing: border-box; }
 
