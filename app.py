@@ -1125,16 +1125,8 @@ with main_tab1:
             <div style="font-size: 22px; font-weight: 700; color: #0a2540; margin-bottom: 8px;">Waiting for Files</div>
             <div style="font-size: 15px; color: #475569;">Upload both the <strong style='color:#2563eb;'>Company Ledger</strong> and <strong style='color:#2563eb;'>GST Records</strong> files above to begin reconciliation.</div>
         </div>""", unsafe_allow_html=True)
-with main_tab2:
-    st.markdown('''
-    <div class="section-header" style="margin-top: 10px;">
-        <div class="section-icon teal">🗄️</div>
-        <div>
-            <div class="section-title">Central Database Dashboard</div>
-            <div class="section-sub">View all synchronized records, matched invoices, and pending leftovers grouped by month</div>
-        </div>
-    </div>''', unsafe_allow_html=True)
 
+with main_tab2:
     all_records = fetch_all_records_from_supabase()
 
     if all_records.empty:
